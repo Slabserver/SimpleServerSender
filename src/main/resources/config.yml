@@ -1,0 +1,7 @@
+servers:
+  creative:
+    host: creative.example.com
+    port: 25565
+  survival:
+    host: survival.example.com
+    port: 25566

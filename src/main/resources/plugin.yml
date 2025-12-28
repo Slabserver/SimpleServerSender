@@ -1,0 +1,22 @@
+name: SimpleServerSender
+version: 1.0.0
+main: org.slabserver.plugin.SimpleServerSender
+api-version: 1.20
+
+commands:
+  creative:
+    description: Transfer to the Creative server
+    usage: /creative
+    permission: transfer.creative
+  survival:
+    description: Transfer to the Survival server
+    usage: /survival
+    permission: transfer.survival
+
+permissions:
+  transfer.creative:
+    description: Allows use of /creative
+    default: true
+  transfer.survival:
+    description: Allows use of /survival
+    default: true
