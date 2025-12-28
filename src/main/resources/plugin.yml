@@ -12,6 +12,10 @@ commands:
     description: Transfer to the Survival server
     usage: /survival
     permission: transfer.survival
+  nexus:
+    description: Transfer to the Nexus server
+    usage: /nexus
+    permission: transfer.nexus
 
 permissions:
   transfer.creative:
@@ -19,4 +23,7 @@ permissions:
     default: true
   transfer.survival:
     description: Allows use of /survival
+    default: true
+  transfer.nexus:
+    description: Allows use of /nexus
     default: true

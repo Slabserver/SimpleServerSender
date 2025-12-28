@@ -1,7 +1,10 @@
 servers:
   creative:
-    host: creative.example.com
+    host: slabserver.org
+    port: 26565
+  survival:
+    host: slabserver.org
     port: 25565
   survival:
-    host: survival.example.com
-    port: 25566
+    host: slabserver.org
+    port: 27565
