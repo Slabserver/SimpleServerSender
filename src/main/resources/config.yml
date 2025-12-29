@@ -5,6 +5,6 @@ servers:
   survival:
     host: slabserver.org
     port: 25565
-  survival:
+  nexus:
     host: slabserver.org
     port: 27565
