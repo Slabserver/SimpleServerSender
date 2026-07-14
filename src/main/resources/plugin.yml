@@ -16,10 +16,10 @@ commands:
     description: Transfer to the Nexus server
     usage: /nexus
     permission: transfer.nexus
-  proxy:
-    description: Transfer to the Survival server via Proxy
-    usage: /proxy
-    permission: transfer.proxy
+  relay:
+    description: Transfer to the Survival server via Relay
+    usage: /relay
+    permission: transfer.relay
 
 permissions:
   transfer.creative:
@@ -31,6 +31,6 @@ permissions:
   transfer.nexus:
     description: Allows use of /nexus
     default: true
-  transfer.proxy:
-    description: Allows use of /proxy
+  transfer.relay:
+    description: Allows use of /relay
     default: true

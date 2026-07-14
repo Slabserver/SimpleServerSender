@@ -8,6 +8,6 @@ servers:
   nexus:
     host: slabserver.org
     port: 27565
-  proxy:
-    host: p1.slabserver.org
+  relay:
+    host: r1.slabserver.org
     port: 25565
