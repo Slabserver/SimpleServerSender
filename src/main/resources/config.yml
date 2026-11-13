@@ -1,13 +1,19 @@
+# Each entry registers a /<name> command and a transfer.<name> permission (default: true).
+# Adding or removing an entry simply requires a server restart. "description" is optional.
 servers:
   creative:
+    description: Transfer to the Creative server
     host: slabserver.org
     port: 26565
   survival:
+    description: Transfer to the Survival server
     host: slabserver.org
     port: 25565
   nexus:
+    description: Transfer to the Nexus server
     host: slabserver.org
     port: 27565
   relay:
+    description: Transfer to the Survival server via Relay
     host: r1.slabserver.org
     port: 25565
